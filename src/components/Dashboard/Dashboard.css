@@ -1,0 +1,119 @@
+.dashboard{
+    width: 100%;
+    padding: 3rem;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(186, 192, 209, 0.2);
+    border-radius: 8px;
+}
+
+.heading-secondary{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+    color: #000;
+    margin-bottom: 2.4rem;
+}
+
+.account-nav__list{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    border-bottom: 0.1rem solid #EFF1F6;
+    padding-bottom: 0.4rem;
+}
+
+.account-nav__list-item:not(:last-child){
+    margin-right: 4.0rem;
+}
+
+.account-nav__list-link{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    color: #5068A5;
+    text-decoration: none;
+}
+
+.account-nav__list-link.active{
+    color: #EA5DBB;
+    border-bottom: 2px solid #EA5DBB;
+    padding-bottom: 0.4rem;
+}
+
+.account-nav__list-link:hover{
+    color: #EA5DBB;
+    border-bottom: 2px solid #EA5DBB;
+    padding-bottom: 0.4rem;
+    transition: all 0.2s;
+}
+
+.card-info{
+    height: 61.8rem;
+    margin-top: 3.2rem;
+    background: #F8F8F8;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card-info:not(:last-child){
+    margin-right: 3.2rem;
+}
+
+.card-header{
+    width: 100%;
+    padding: 1.6rem 0;
+    background: linear-gradient(88.34deg, #DD50DA 0%, #FF94FD 100%);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.heading-tertiary{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card-body{
+    padding-top: 2.4rem;
+    padding-left: 2.4rem; 
+    padding-right: 10.5rem; 
+}
+
+.card-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    color: #333333;
+}
+
+.card-table{
+    width: 44.4rem;
+    margin-top: 1.6rem;
+}
+
+.card-table th, td{
+    width: 1.8rem;
+    padding: 1.6rem 0;
+    border-bottom: 1px solid #EBEBEB;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    color: #666666;
+    text-align: left;
+}
+
+.card-table td{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: #333;
+    text-align: left;
+    text-transform: none;
+}
