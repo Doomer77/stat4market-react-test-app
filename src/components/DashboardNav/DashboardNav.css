@@ -1,0 +1,33 @@
+.account-nav__list {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  border-bottom: 0.1rem solid #eff1f6;
+  padding-bottom: 0.4rem;
+}
+
+.account-nav__list-item:not(:last-child) {
+  margin-right: 4rem;
+}
+
+.account-nav__list-link {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #5068a5;
+  text-decoration: none;
+}
+
+.account-nav__list-link.active {
+  color: #ea5dbb;
+  border-bottom: 2px solid #ea5dbb;
+  padding-bottom: 0.4rem;
+}
+
+.account-nav__list-link:hover {
+  color: #ea5dbb;
+  border-bottom: 2px solid #ea5dbb;
+  padding-bottom: 0.4rem;
+  transition: all 0.2s;
+}

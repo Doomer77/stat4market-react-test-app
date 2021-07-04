@@ -1,0 +1,86 @@
+.card-info {
+  height: 61.8rem;
+  margin-top: 3.2rem;
+  background: #f8f8f8;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-info:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.card-header {
+  width: 100%;
+  padding: 1.6rem 0;
+  background: linear-gradient(88.34deg, #dd50da 0%, #ff94fd 100%);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-header--analysis {
+  background: linear-gradient(88.34deg, #eb5757 0%, #ff8d8d 100%);
+}
+
+.card-header--positions {
+  background: linear-gradient(88.34deg, #6065a7 0%, #8b91dd 100%);
+}
+
+.heading-card {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.card-body {
+  padding-top: 2.4rem;
+  padding-left: 2.4rem;
+  padding-right: 10.5rem;
+}
+
+.card-text {
+  margin-bottom: 1.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #333333;
+}
+
+.card-text--mod {
+  color: #ea5dbb;
+}
+
+.card-text--mb {
+  margin-bottom: 0;
+}
+
+.card-table {
+  width: 44.4rem;
+  margin-top: 1.6rem;
+}
+
+.card-table th,
+td {
+  width: 1.8rem;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid #ebebeb;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+  color: #666666;
+  text-align: left;
+}
+
+.card-table td {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #333;
+  text-align: left;
+  text-transform: none;
+}

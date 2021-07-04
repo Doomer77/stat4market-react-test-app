@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.services {
+  width: 100%;
+  margin-top: 4.8rem;
+}
+
+.service--sm-mb {
+  margin-bottom: 2.4rem;
+}
+
+.service--big-mb {
+  margin-bottom: 8.6rem;
+}
+
+.services-text {
+  margin-bottom: 2.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #333333;
+}
+
+.service {
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(24, 34, 70, 0.1);
+  border-radius: 8px;
+}
+
+.service-content {
+  padding: 0 1.5rem;
+}
+
+.servise-img-block__img {
+  display: block;
+  object-fit: cover;
+}
+
+.service-content__heading {
+  margin-top: 3rem;
+  margin-bottom: 1.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #000000;
+}
+
+.service-content__text {
+  margin-bottom: 4.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #666666;
+}
+
+.service-content__text--mb {
+  margin-bottom: 3rem;
+}
+
+.service-content__attention {
+  display: flex;
+  align-items: center;
+  padding: 1.6rem 2rem;
+  background: #f8f8f8;
+  border-radius: 4px;
+}
+
+.service-content__attention--mt {
+  margin-top: 11.5rem;
+}
+
+.service-content__attention-text {
+  margin-left: 1.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.price-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.2rem;
+  align-items: center;
+}
+
+.price-block__conditions {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-block__price {
+  margin-bottom: 0.8rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: #000000;
+}
+
+.price-block__price--initial {
+  color: #5068a5;
+  text-decoration: line-through;
+}
+
+.price-block__period {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.price-block__order {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.price-block__btn {
+  width: 21rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #5068a5;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.price-block__btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.price-block__btn--order {
+  margin-bottom: 1.6rem;
+}
+
+.price-block__btn--about {
+  background: #fff;
+  border: 1px solid #d8dce9;
+  color: #5068a5;
+}
