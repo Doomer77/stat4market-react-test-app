@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/stat4market-react-test-app/static/css/main.6515899e.chunk.css",
+    "main.js": "/stat4market-react-test-app/static/js/main.98c1fb19.chunk.js",
+    "main.js.map": "/stat4market-react-test-app/static/js/main.98c1fb19.chunk.js.map",
+    "runtime-main.js": "/stat4market-react-test-app/static/js/runtime-main.46abd064.js",
+    "runtime-main.js.map": "/stat4market-react-test-app/static/js/runtime-main.46abd064.js.map",
+    "static/css/2.eb866444.chunk.css": "/stat4market-react-test-app/static/css/2.eb866444.chunk.css",
+    "static/js/2.39a719be.chunk.js": "/stat4market-react-test-app/static/js/2.39a719be.chunk.js",
+    "static/js/2.39a719be.chunk.js.map": "/stat4market-react-test-app/static/js/2.39a719be.chunk.js.map",
+    "index.html": "/stat4market-react-test-app/index.html",
+    "static/css/2.eb866444.chunk.css.map": "/stat4market-react-test-app/static/css/2.eb866444.chunk.css.map",
+    "static/css/main.6515899e.chunk.css.map": "/stat4market-react-test-app/static/css/main.6515899e.chunk.css.map",
+    "static/js/2.39a719be.chunk.js.LICENSE.txt": "/stat4market-react-test-app/static/js/2.39a719be.chunk.js.LICENSE.txt",
+    "static/media/Navigation.css": "/stat4market-react-test-app/static/media/arrowDownIcon.c0583c88.svg",
+    "static/media/bellIcon.ec0ddf97.svg": "/stat4market-react-test-app/static/media/bellIcon.ec0ddf97.svg",
+    "static/media/check_in_circle.19ad5a54.svg": "/stat4market-react-test-app/static/media/check_in_circle.19ad5a54.svg",
+    "static/media/dollarIcon.dea214b6.svg": "/stat4market-react-test-app/static/media/dollarIcon.dea214b6.svg",
+    "static/media/img1.9bdb7f01.png": "/stat4market-react-test-app/static/media/img1.9bdb7f01.png",
+    "static/media/img2.d4b06fcc.png": "/stat4market-react-test-app/static/media/img2.d4b06fcc.png",
+    "static/media/mainLogo.744113ac.svg": "/stat4market-react-test-app/static/media/mainLogo.744113ac.svg",
+    "static/media/menuIcon.3f4ee399.svg": "/stat4market-react-test-app/static/media/menuIcon.3f4ee399.svg",
+    "static/media/ozonLogo.cb676fef.svg": "/stat4market-react-test-app/static/media/ozonLogo.cb676fef.svg",
+    "static/media/userIcon.5e55228b.svg": "/stat4market-react-test-app/static/media/userIcon.5e55228b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46abd064.js",
+    "static/css/2.eb866444.chunk.css",
+    "static/js/2.39a719be.chunk.js",
+    "static/css/main.6515899e.chunk.css",
+    "static/js/main.98c1fb19.chunk.js"
+  ]
+}
