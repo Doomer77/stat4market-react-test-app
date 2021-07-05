@@ -1,4 +1,10 @@
-.main{
-    width: 100%;
-    padding: 1.6rem 5rem;
+.main {
+  width: 100%;
+  padding: 1.6rem 5rem;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1.6rem;
+  }
 }

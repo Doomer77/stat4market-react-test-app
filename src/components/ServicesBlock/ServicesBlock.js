@@ -11,8 +11,8 @@ export default function ServicesBlock() {
       <div className="col">
         <div className="services-block">
           <div className="service service--sm-mb">
-            <div className="row d-flex align-items-start">
-              <div className="col">
+            <div className="row d-flex row--768px">
+              <div className="col-xxl-auto col-xl-3 col-md-12">
                 <div className="service-img-block">
                   <img
                     src={img1}
@@ -21,7 +21,7 @@ export default function ServicesBlock() {
                   />
                 </div>
               </div>
-              <div className="col-8">
+              <div className="col-xxl-8 col-xl-6 col-md-12">
                 <div className="service-content">
                   <h3 className="service-content__heading">
                     Оптимизация продаж на маркетплейсе
@@ -53,7 +53,7 @@ export default function ServicesBlock() {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col-xxl-auto col-xl-3 col-md-12">
                 <div className="price-block">
                   <div className="price-block__conditions">
                     <span className="price-block__price price-block__price--initial">
@@ -75,8 +75,8 @@ export default function ServicesBlock() {
             </div>
           </div>
           <div className="service service--big-mb">
-            <div className="row d-flex align-items-start">
-              <div className="col">
+            <div className="row row--768px">
+              <div className="col-xxl-auto col-xl-3 col-md-12">
                 <div className="service-img-block">
                   <img
                     src={img2}
@@ -85,7 +85,7 @@ export default function ServicesBlock() {
                   />
                 </div>
               </div>
-              <div className="col-8">
+              <div className="col-xxl-8 col-xl-6 col-md-12">
                 <div className="service-content">
                   <h3 className="service-content__heading">
                     Помощь в выходе на маркетплейс
@@ -110,7 +110,7 @@ export default function ServicesBlock() {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col-xxl-auto col-xl-3 col-md-12">
                 <div className="price-block">
                   <div className="price-block__conditions">
                     <span className="price-block__price price-block__price--initial">

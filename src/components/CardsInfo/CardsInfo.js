@@ -4,7 +4,7 @@ import "./CardsInfo.css";
 export default function CardsInfo() {
   return (
     <div className="row d-flex justify-content-between">
-      <div className="col-lg-4 col-md-6">
+      <div className="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
         <article className="card-info">
           <div className="card-header">
             <h4 className="heading-card">Wildberries — Аналитика</h4>
@@ -16,7 +16,7 @@ export default function CardsInfo() {
             </p>
             <table className="card-table">
               <thead>
-                <tr>
+                <tr className="tr-mb">
                   <th>Количество товаров</th>
                   <th>Месяц</th>
                   <th>День</th>
@@ -58,7 +58,7 @@ export default function CardsInfo() {
           </div>
         </article>
       </div>
-      <div className="col-lg-4 col-md-6">
+      <div className="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
         <article className="card-info">
           <div className="card-header card-header--analysis">
             <h4 className="heading-card">Wildberries — Анализ категорий</h4>
@@ -81,7 +81,7 @@ export default function CardsInfo() {
             </p>
             <table className="card-table">
               <thead>
-                <tr>
+                <tr className="tr-mb">
                   <th>Количество товаров</th>
                   <th>Месяц</th>
                   <th>День</th>
@@ -118,7 +118,7 @@ export default function CardsInfo() {
           </div>
         </article>
       </div>
-      <div className="col-lg-4 col-md-6">
+      <div className="col-xxl-4 col-xl-12 col-lg-12 col-md-12">
         <article className="card-info">
           <div className="card-header card-header--positions">
             <h4 className="heading-card">Wildberries — Позиции товаров</h4>
@@ -138,9 +138,9 @@ export default function CardsInfo() {
             <p className="card-text card-text--mb">
               Ежедневный мониторинг позиций:
             </p>
-            <table className="card-table">
+            <table className="card-table card-table--768px">
               <thead>
-                <tr>
+                <tr className="tr-mb">
                   <th>Количество товаров</th>
                   <th>Месяц</th>
                   <th>День</th>

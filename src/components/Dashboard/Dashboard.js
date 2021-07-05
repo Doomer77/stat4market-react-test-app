@@ -9,9 +9,13 @@ export default function Dashboard() {
   return (
     <div className="container-fluid">
       <section className="dashboard">
-        <HeadingSecondary text={"Оплата"} />
-        <DashboardNav />
-        <CardsInfo />
+        <div className="row">
+          <div className="col">
+            <HeadingSecondary text={"Оплата"} />
+            <DashboardNav />
+            <CardsInfo />
+          </div>
+        </div>
       </section>
     </div>
   );

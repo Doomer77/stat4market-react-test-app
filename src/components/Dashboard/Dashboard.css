@@ -5,3 +5,16 @@
   box-shadow: 0px 5px 10px rgba(186, 192, 209, 0.2);
   border-radius: 8px;
 }
+
+@media (max-width: 1000px) {
+  .dashboard {
+    padding: 1.6rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .dashboard {
+    margin-top: 4rem;
+    overflow: hidden;
+  }
+}

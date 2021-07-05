@@ -31,3 +31,15 @@
   padding-bottom: 0.4rem;
   transition: all 0.2s;
 }
+
+@media (max-width: 1000px) {
+  .account-nav__list-item:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .account-nav__list {
+    width: 58.6rem;
+  }
+}

@@ -54,6 +54,7 @@
 
 .card-text--mb {
   margin-bottom: 0;
+  font-weight: 600;
 }
 
 .card-table {
@@ -83,4 +84,108 @@ td {
   color: #333;
   text-align: left;
   text-transform: none;
+}
+
+@media (max-width: 1720px) {
+  .card-body {
+    padding-top: 2.4rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .card-table {
+    width: 31.2rem;
+    margin-top: 1.6rem;
+  }
+
+  .card-text {
+    width: 100%;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card-body {
+    width: 100%;
+    padding: 1.6rem;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+    font-weight: 1.6rem;
+  }
+
+  .card-table {
+    width: 31.2rem;
+  }
+
+  .card-table--768px {
+    width: 67.2rem;
+  }
+
+  .tr-mb th {
+    padding-bottom: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    width: 100%;
+    padding: 1.6rem;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+    font-weight: 1.6rem;
+  }
+
+  .card-table {
+    width: 31.2rem;
+  }
+
+  .card-table--768px {
+    width: 67.2rem;
+  }
+
+  .tr-mb th {
+    padding-bottom: 0.8rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .card-info {
+    height: auto;
+  }
+  .card-body {
+    width: 100%;
+    padding: 1.6rem;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+    font-weight: 1.6rem;
+  }
+
+  .card-table {
+    width: 24rem;
+    height: auto;
+  }
+
+  .card-table--768px {
+    width: 24rem;
+    height: auto;
+  }
+
+  .card-table th,
+  td {
+    padding: 1rem 0;
+  }
+
+  .tr-mb th {
+    padding-bottom: 0.8rem;
+  }
 }
