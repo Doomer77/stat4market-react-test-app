@@ -21,7 +21,7 @@ export default function ServicesBlock() {
                   />
                 </div>
               </div>
-              <div className="col-xxl-8 col-xl-6 col-md-12">
+              <div className="col-xxl-8 col-xl-6 col-lg-8 col-md-12">
                 <div className="service-content">
                   <h3 className="service-content__heading">
                     Оптимизация продаж на маркетплейсе
@@ -53,7 +53,7 @@ export default function ServicesBlock() {
                   </div>
                 </div>
               </div>
-              <div className="col-xxl-auto col-xl-3 col-md-12">
+              <div className="col-xxl-auto col-xl-3 col-lg-4 col-md-12">
                 <div className="price-block">
                   <div className="price-block__conditions">
                     <span className="price-block__price price-block__price--initial">
@@ -85,7 +85,7 @@ export default function ServicesBlock() {
                   />
                 </div>
               </div>
-              <div className="col-xxl-8 col-xl-6 col-md-12">
+              <div className="col-xxl-8 col-xl-6 col-lg-8 col-md-12">
                 <div className="service-content">
                   <h3 className="service-content__heading">
                     Помощь в выходе на маркетплейс
@@ -110,7 +110,7 @@ export default function ServicesBlock() {
                   </div>
                 </div>
               </div>
-              <div className="col-xxl-auto col-xl-3 col-md-12">
+              <div className="col-xxl-auto col-xl-3 col-lg-4 col-md-12">
                 <div className="price-block">
                   <div className="price-block__conditions">
                     <span className="price-block__price price-block__price--initial">
